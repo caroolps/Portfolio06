@@ -9,7 +9,7 @@
 
 ![image](https://user-images.githubusercontent.com/61089745/158082449-894548ea-e14d-4de7-896d-12d2a9ec1d74.png)
 
-## Projeto de Tópicos avançados de banco de dados - Banco de dados - FATEC 2022 - OPTIN/OPTOUT:mortar_board:
+## FATEC 2022 - OPTIN/OPTOUT:mortar_board:
 
 ### **I - RESUMO DO PROJETO**:page_facing_up: 
 A loja de esporte "FTSports" para atender a Lei geral da proteção de dados (LGPD), precisa se adequadar a modalidade optIn - optOut, concedendo poder ao cliente em permitir que manipule suas preferências de configurações. Com isso, a loja precisa adequar sua plataforma para que o usuário consiga alterar suas preferências de receber sms, whatsapp ou ligações de ofertas da loja a qualquer momento. E para segurança, todas essas alterações devem ser registradas no banco de dados.
