@@ -352,13 +352,39 @@ curl --request GET \
 
 ### **II - TECNOLOGIAS**:iphone:
 
+JAVA:
+
+ECLIPSE:
+
+MySQL:
+
+INSOMINIA:
+
 ### **III - CONTRIBUIÇÕES INDIVIDUAIS**:bow:
+
+Desenvolvimento do backend com as entidades e todas as camadas da aplicação
+
+Conexão com o Banco de Dados MySQL pelo arquivo properties
+
+Requisições VIA INSOMINIA
+
 
 ### **IV - APRENDIZADOS EFETIVOS**:closed_book:
 
 **Hard Skills Efetivamente Desenvolvidas:**
+Aperfeiçoamento no backend
+ENUMS
+MySQL
+OPT-In/Out
+Modelar o banco de dados
+Realizar requisições
+Regra de negócio
 
 **Soft Skills Efetivamente Desenvolvidas:**
+Tive a capacidade de planejar o escopo do projeto, determinando por onde iniciar, definindo data de entrega
+Resiliência para construir todo o backend do projeto
+AutoConfiança para determinar que sou capaz de desenvolver uma aplicação sozinha
+
 
 
 
