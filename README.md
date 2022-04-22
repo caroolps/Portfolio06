@@ -352,11 +352,19 @@ curl --request GET \
 
 ### **II - TECNOLOGIAS**:iphone:
 
+![image](https://user-images.githubusercontent.com/61089745/164816460-6561ae44-68de-4faf-99a7-299122107672.png)
+
 JAVA:
+
+![image](https://user-images.githubusercontent.com/61089745/164816514-ea5b1677-1816-414e-874b-09e0c6975cce.png)
 
 ECLIPSE:
 
+![image](https://user-images.githubusercontent.com/61089745/164816585-ecd79b2f-43ff-45ac-ab36-0ee5eee8eef5.png)
+
 MySQL:
+
+![image](https://user-images.githubusercontent.com/61089745/164816549-d7b2f5fe-86fe-430c-bbc3-172a22257bb2.png)
 
 INSOMINIA:
 
