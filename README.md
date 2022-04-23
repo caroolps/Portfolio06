@@ -179,7 +179,7 @@ E todas as demais camadas da aplicação como Controller, Enums, Repository, Ser
 
 ![image](https://user-images.githubusercontent.com/61089745/164934675-f7098783-e631-48b9-811d-9f1c442ec55d.png)
 
-Realizei a conexão com o Banco de Dados MySQL através do arquivo .Properties com a função Hibernate para criar automáticamente as tabelas e o relacionamento entre as tabelas.
+Realizei a conexão com o Banco de Dados MySQL através do arquivo Properties com a função Hibernate para criar automáticamente as tabelas e o relacionamento entre as tabelas.
 
 ![image](https://user-images.githubusercontent.com/61089745/164934902-9cf5f9ec-e9b6-470a-88c2-dfdc75bb1baa.png)
 
@@ -195,11 +195,11 @@ Para validar a regra de negócio e a aplicação realizei requisições VIA INSO
 
 Também foi inserido novos dados manualmente no banco MYSQL para validar as tabelas e colunas criadas no banco relacional através do Hibernate e fiz consultas para verificar se o banco atualizava as informações conforme as novas requisições feitas pelo Insomnia.
 
-Diferencial: Na tabela de histórico foi acrescentado a coluna "Tipo_Historico para o usuário verificar o tipo de atualização que ocorreu no cadastro do usuário, sendo: 
+Diferencial: Na tabela de histórico foi acrescentado a coluna "Tipo_Historico" para o usuário verificar o tipo de atualização que ocorreu no cadastro do usuário, sendo: 
 
 - Configuração: Significa que houve atualização nos dados booleans se deseja receber sms, whats e/ou ligação;
 
-- Termo: Significa que o usuário realizou atualização apenas de aceitação de um novo termo. 
+- Termo: Significa que o usuário realizou atualização de aceitação de um novo termo. 
 
 ![image](https://user-images.githubusercontent.com/61089745/164936485-52261d9d-2b8e-46b8-8520-a2ac57f57207.png)
 
