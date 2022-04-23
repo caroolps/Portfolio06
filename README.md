@@ -354,19 +354,19 @@ curl --request GET \
 
 ![image](https://user-images.githubusercontent.com/61089745/164816460-6561ae44-68de-4faf-99a7-299122107672.png)
 
-JAVA:
+JAVA: É uma linguagem de programação orientada a objetos. Foi utilizado essa linguagem para o desenvolvimento do backend da aplicação.
 
 ![image](https://user-images.githubusercontent.com/61089745/164816514-ea5b1677-1816-414e-874b-09e0c6975cce.png)
 
-ECLIPSE:
+ECLIPSE: Java é uma linguagem de programação orientada a objetos, para desenvolver o backend foi usado os ambientes Eclipse e Intellij para desenvolvimento integrado, escrito em Java.
 
 ![image](https://user-images.githubusercontent.com/61089745/164816585-ecd79b2f-43ff-45ac-ab36-0ee5eee8eef5.png)
 
-MySQL:
+MySQL: O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. Foi usado para o desenvolvimento do banco relacional da aplicação.
 
 ![image](https://user-images.githubusercontent.com/61089745/164816549-d7b2f5fe-86fe-430c-bbc3-172a22257bb2.png)
 
-INSOMINIA:
+INSOMNIA: É um API Client que facilita aos desenvolvedores criar, compartilhar, testar e documentar APIs. Utizada para testar o GET, PUT, POST e DELETE das classes controllers da aplicação.
 
 ### **III - CONTRIBUIÇÕES INDIVIDUAIS**:bow:
 
@@ -374,7 +374,7 @@ Desenvolvimento do backend com as entidades e todas as camadas da aplicação
 
 Conexão com o Banco de Dados MySQL pelo arquivo properties
 
-Requisições VIA INSOMINIA
+Requisições VIA INSOMNIA
 
 
 ### **IV - APRENDIZADOS EFETIVOS**:closed_book:
