@@ -169,11 +169,27 @@ INSOMNIA: É um API Client que facilita aos desenvolvedores criar, compartilhar,
 
 ### **III - CONTRIBUIÇÕES INDIVIDUAIS**:bow:
 
-Desenvolvimento do backend com as entidades e todas as camadas da aplicação
+Desenvolvimento do backend inteiro com as entidades:
+Histórico; 
+Termo; 
+Usuário.
 
-Conexão com o Banco de Dados MySQL pelo arquivo properties
+E todas as demais camadas da aplicação como Controller, Enums, Repository, Service e Vo;
 
-Requisições VIA INSOMNIA
+![image](https://user-images.githubusercontent.com/61089745/164934675-f7098783-e631-48b9-811d-9f1c442ec55d.png)
+
+Realizei a conexão com o Banco de Dados MySQL através do arquivo properties com a função Hibernate para criar automáticamente as tabelas e o relacionamento entre elas.
+
+![image](https://user-images.githubusercontent.com/61089745/164934902-9cf5f9ec-e9b6-470a-88c2-dfdc75bb1baa.png)
+
+E como a aplicação não exigia frontend, requisições VIA INSOMNIA para validar o funcionamento da aplicação, Usando os comandos:
+Get: Puxando os dados do banco de dados MYSQL e validando o carregando dos termos, usuários e históricos criados.
+Post: Utilizado para criar um novo usuário e termo;
+Put: Utilizado para alterar os dados do usuário, atualizar a aceitação de um novo termo e alterar as permissões booleans se deseja receber sms, ligação e/ou whats de ofertas;
+
+![image](https://user-images.githubusercontent.com/61089745/161170480-dbc56e30-a3e5-47da-be41-757dc769eced.png)
+
+E inseri dados no banco de dados MYSQL para validar as tabelas e colunas criadas no banco relacional através do Hibernate e fiz consultas para verificar se o banco atualiza as informações conforme as novas requisições feitas pelo Insomnia.
 
 
 ### **IV - APRENDIZADOS EFETIVOS**:closed_book:
@@ -181,6 +197,7 @@ Requisições VIA INSOMNIA
 **Hard Skills Efetivamente Desenvolvidas:**
 Aperfeiçoamento no backend
 ENUMS
+VO
 MySQL
 OPT-In/Out
 Modelar o banco de dados
