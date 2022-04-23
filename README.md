@@ -169,7 +169,7 @@ INSOMNIA: É um API Client que facilita aos desenvolvedores criar, compartilhar,
 
 ### **III - CONTRIBUIÇÕES INDIVIDUAIS**:bow:
 
-Este Projeto Integrador foi desenvolvido através do projeto proposto pela matéria Tópicos Avançados em Banco de Dados, optei por realizar o projeto de forma individual para validar a práticar as habilidades desenvolvidas durante o curso. Contudo, desenvolvi do backend inteiro com as entidades:
+Este Projeto Integrador foi desenvolvido através do projeto proposto pela matéria Tópicos Avançados em Banco de Dados, optei por realizar o projeto de forma individual para validar as habilidades desenvolvidas durante o curso. Contudo, desenvolvi do backend inteiro com as entidades:
 
 - Histórico; 
 - Termo; 
