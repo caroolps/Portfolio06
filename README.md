@@ -27,327 +27,126 @@ O projeto tem como objetivo atender a LGPD (Lei geral da proteção de dados), a
 ### ENDPOINTS
 
 ## Termo
-
 ### Criar termo
 
-Endpoint responsavel por criar um termo
+Endpoint responsável por criar um termo.
 
-**Path**
-```
-POST <host>/spring-app/termo/new
-``` 
+**Funcionamento:**
 
-**Request** 
-```
-curl --request POST \
-  --url http://localhost:8081/spring-app/termo/new \
-  --header 'content-type: application/json' \
-  --data '{
-	"nome": "Terceiro termo",
-	"conteudo": "O super conteudo do meu terceiro termo",
-	"versao": "2"
-}'
-```
-
-**Funcionamento**
 ![image](https://user-images.githubusercontent.com/61089745/161169371-f0968594-7d3c-4a18-a73b-34a48ef07cc7.png)
 
 
 ### Get All
-Pega todos os termos
+Pega todos os termos.
 
-**Path**
-```
-GET <host>/spring-app/termo/all
-``` 
+**Funcionamento:**
 
-**Request**
-```
-curl --request GET \
-  --url http://localhost:8081/spring-app/termo/all
-```
-**Funcionamento**
 ![image](https://user-images.githubusercontent.com/61089745/161169527-5d588983-018f-4909-86e3-443b67476154.png)
 
 
 
 ### Get By id
-Pega um termo por id
+Pega um termo por id.
 
-**Path**
-```
-GET <host>/spring-app/termo/<id_termo>
-``` 
+**Funcionamento:**
 
-
-**Request**
-```
-curl --request GET \
-  --url http://localhost:8081/spring-app/termo/1
-```
-
-**Funcionamento**
 ![image](https://user-images.githubusercontent.com/61089745/161169580-90e5e693-2fb5-4bc4-a15d-2bf15e81e297.png)
 
 ### Get latest
-Pega o termo mais recente
-**Path**
-```
-GET <host>/spring-app/termo
-``` 
+Pega o termo mais recente.
 
-**Request**
-```
-curl --request GET \
-  --url http://localhost:8081/spring-app/termo/
-```
-
-**Funcionamento**
+**Funcionamento:**
 
 ![image](https://user-images.githubusercontent.com/61089745/161169655-240bf95c-2caa-4e12-b5da-661a7b7eea47.png)
 
 ##  Usuário
+### Criar usuário
 
-### Criar usuario
-Cria um usuario
+**Funcionamento** 
 
-**Path**
-```
-POST <host>/spring-app/usuario/new
-``` 
-**Request**
-```
-curl --request POST \
-  --url http://localhost:8081/spring-app/usuario/new \
-  --header 'content-type: application/json' \
-  --data '{
-	"nome": "super usuario",
-	"email": "superemai@email.com",
-	"cpf": "12312312312",
-	"celular": "5512912345678",
-	"rua": "super rua",
-	"numero": "super numero",
-  "bairro": "super bairro",
-	"cidade": "super cidade",
-	"cep": "12345678",
-	"sms": 0,
-	"whats": 0,
-	"ligacao": 0,
-	"termoVersao": 1
-}'
-```
-
-**Funcionamento**
-
-Criando usuario sem informar termo
+Criando usuário sem informar termo:
 
 ![image](https://user-images.githubusercontent.com/61089745/161170350-f8865600-9800-448d-b1db-3170c0cc04d0.png)
 
-Criando usuario com termo antigo
+Criando usuário com termo antigo:
 
 ![image](https://user-images.githubusercontent.com/61089745/161170416-979cbaec-c178-4d60-a2ca-ecde89c839ba.png)
 
-Criando usuario
+Criando usuário:
 
 ![image](https://user-images.githubusercontent.com/61089745/161170480-dbc56e30-a3e5-47da-be41-757dc769eced.png)
 
-### Atualizar usuario
-Atualiza um usuario
-
-**Path**
-```
-PUT <host>/spring-app/usuario/edit
-``` 
-
-**Request**
-
-```
-curl --request PUT \
-  --url http://localhost:8081/spring-app/usuario/edit \
-  --header 'content-type: application/json' \
-  --data '{
-	"id": 1,
-	"nome": "super usuario",
-	"email": "superemai@email.com",
-	"cpf": "12312312312",
-	"celular": "5512912345678",
-	"rua": "super rua",
-	"numero": "super numero",
-  "bairro": "super bairro",
-	"cidade": "super cidade",
-	"cep": "12345678",
-	"sms": 2.0,
-	"whats": 2.0,
-	"ligacao": 2.0,
-	"termoVersao": 3
-}'
-```
-
-
+### Atualizar usuário
 **Funcionamento**
 
-Atualizar com termo invalido
+Atualizar com termo inválido:
+
 ![image](https://user-images.githubusercontent.com/61089745/161170601-d0dc452f-e086-4b80-9cc6-2091a02ef9d4.png)
 
 ### Pegar as configs do usuario
-Pega as configs de um usuario
+Pega as configs de um usuário.
 
-**Path**
-```
-GET <host>/spring-app/usuario/config/<id_usuario>
-``` 
-**Request**
-
-```
-curl --request GET \
-  --url http://localhost:8081/spring-app/usuario/config/1
-```
-
-**Funcionamento**
+**Funcionamento:**
 
 ![image](https://user-images.githubusercontent.com/61089745/161170800-2e2a26de-c29d-4931-ab29-247839bc5c7f.png)
 
-### Pegar termo do usuario
-Pega o termo aceito pelo usuario
+### Pegar termo do usuário
+Pega o termo aceito pelo usuário.
 
-**Path**
-```
-GET <host>/spring-app/usuario/termo/<id_usuario>
-``` 
-
-**Request**
-
-```
-curl --request GET \
-  --url http://localhost:8081/spring-app/usuario/termo/1
-```
-
-**Funcionamento**
+**Funcionamento:**
 
 ![image](https://user-images.githubusercontent.com/61089745/161170851-c22247a3-b27f-4f60-9844-24a8a4c049e8.png)
 
 
-## Historico
+## Histórico
 
-### Pegar todos historicos
-Pega todos os historicos
+### Pegar todos históricos
+Pega todos os históricos.
 
-**Path**
-```
-GET <host>/spring-app/historico/all
-``` 
-
-**Request**
-```
-curl --request GET \
-  --url http://localhost:8081/spring-app/historico/all
-```
-
-**Funcionamento**
+**Funcionamento:**
 
 ![image](https://user-images.githubusercontent.com/61089745/161170955-6717d348-2d44-4bf4-8fcc-ea1ac64fcb3f.png)
-Em
-### Pegar historico por id
-Pega um historico por id
 
-**Path**
-```
-GET <host>/spring-app/historico/<id_historico>
-``` 
+### Pegar histórico por id
+Pega um histórico por id.
 
-**Request**
-```
-curl --request GET \
-  --url http://localhost:8081/spring-app/historico/4
-```
-
-**Funcionamento**
+**Funcionamento:**
 
 ![image](https://user-images.githubusercontent.com/61089745/161171013-847f8523-13e1-478a-8590-9a3da05bf4eb.png)
 
 
-### Pegar historico por usuario
+### Pegar histórico por usuário
 
-**Path**
-```
-GET <host>/spring-app/historico/usuario/<id_usuario>
-``` 
-**Request**
-```
-curl --request GET \
-  --url http://localhost:8081/spring-app/historico/usuario/1
-```
+**Funcionameto:**
 
-**Funcionameto**
 ![image](https://user-images.githubusercontent.com/61089745/161171097-b097280a-2ecc-4ac3-874d-ef6c08a63442.png)
 
-### Historico pelo termo
+### Histórico pelo termo
 
-**Path**
-```
-GET <host>/spring-app/historico/termo/<id_termo>
-``` 
+**Funcionameto:**
 
-**Request**
-```
-curl --request GET \
-  --url http://localhost:8081/spring-app/historico/termo/3
-```
-
-**Funcionameto**
 ![image](https://user-images.githubusercontent.com/61089745/161171178-ef3037b8-e834-4f02-a24b-100486a07dcb.png)
 
-### Historico por sms
-Pega todos os historicos com sms ativo
+### Histórico por sms
+Pega todos os históricos com sms ativo.
 
+**Funcionameto:**
 
-**Path**
-```
-GET <host>/spring-app/historico/sms/<valor>
-``` 
-
-**Request**
-```
-curl --request GET \
-  --url http://localhost:8081/spring-app/historico/sms/2
-```
-
-**Funcionameto**
 ![image](https://user-images.githubusercontent.com/61089745/161171387-4078c2e6-ade8-4266-90f2-563df6471a2b.png)
 
 ### Histórico pelo whats
-Pega todos os historicos com whats
+Pega todos os históricos com whats.
 
-**Path**
-```
-GET <host>/spring-app/historico/whats/<valor>
-``` 
+**Funcionameto:**
 
-**Request**
-```
-curl --request GET \
-  --url http://localhost:8081/spring-app/historico/whats/2
-```
-
-**Funcionameto**
 ![image](https://user-images.githubusercontent.com/61089745/161171450-428e7242-bace-4027-a553-1e895a089537.png)
 
-### Historico por ligacao
+### Histórico por ligacao
 
-Pega todos os historicos com ligacao ativo
+Pega todos os históricos com ligacao ativo.
 
-**Path**
-```
-GET <host>/spring-app/historico/ligacao/<valor>
-``` 
+**Funcionameto:**
 
-**Request**
-```
-curl --request GET \
-  --url http://localhost:8081/spring-app/historico/ligacao/2
-```
-
-**Funcionameto**
 ![image](https://user-images.githubusercontent.com/61089745/161171518-6b20b9b6-9c6f-43bb-b09f-f29296a2639a.png)
 
 ### **II - TECNOLOGIAS**:iphone:
@@ -358,7 +157,7 @@ JAVA: É uma linguagem de programação orientada a objetos. Foi utilizado essa 
 
 ![image](https://user-images.githubusercontent.com/61089745/164816514-ea5b1677-1816-414e-874b-09e0c6975cce.png)
 
-ECLIPSE: Java é uma linguagem de programação orientada a objetos, para desenvolver o backend foi usado os ambientes Eclipse e Intellij para desenvolvimento integrado, escrito em Java.
+ECLIPSE: Java é uma linguagem de programação orientada a objetos, para desenvolver o backend foi usado o ambiente Eclipse para desenvolvimento integrado, escrito em Java.
 
 ![image](https://user-images.githubusercontent.com/61089745/164816585-ecd79b2f-43ff-45ac-ab36-0ee5eee8eef5.png)
 
