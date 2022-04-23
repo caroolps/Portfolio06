@@ -185,11 +185,11 @@ Realizei a conexão com o Banco de Dados MySQL através do arquivo .Properties c
 
 Para validar a regra de negócio e a aplicação realizei requisições VIA INSOMNIA, usando os comandos:
 
-Get: Utilizado para puxar os dados criados no banco MYSQL e validando o carregando dos termos, usuários e históricos criados e atualizados na aplicação;
+- Get: Utilizado para puxar os dados criados no banco MYSQL e validando o carregando dos termos, usuários e históricos criados e atualizados na aplicação;
 
-Post: Utilizado para criar um novo usuário e termo;
+- Post: Utilizado para criar um novo usuário e termo;
 
-Put: Utilizado para alterar os dados do usuário, atualizar a aceitação de um novo termo e alterar as permissões booleans se deseja receber sms, ligação e/ou whats de ofertas desenvolvidos na aplicação;
+- Put: Utilizado para alterar os dados do usuário, atualizar a aceitação de um novo termo e alterar as permissões booleans se deseja receber sms, ligação e/ou whats de ofertas desenvolvidos na aplicação;
 
 ![image](https://user-images.githubusercontent.com/61089745/161170480-dbc56e30-a3e5-47da-be41-757dc769eced.png)
 
@@ -207,20 +207,19 @@ Diferencial: Na tabela de histórico foi acrescentado a coluna "Tipo_Historico p
 ### **IV - APRENDIZADOS EFETIVOS**:closed_book:
 
 **Hard Skills Efetivamente Desenvolvidas:**
-Aperfeiçoamento no backend
-ENUMS
-VO
-MySQL
-OPT-In/Out
-Modelar o banco de dados
-Realizar requisições
-Regra de negócio
+
+Este último Projeto Integrador com base no Projeto de uma matéria específica foi o que eu mais gostei de desenvolver por validar a minha capacidade de realizar sozinha uma aplicação. Com certeza aperfeiçoei meus conhecimentos no backend, tive a oportunidade de utilizar novas camadas que estava aprendendo em cursos extras que não tive oportunidade de usar ao longo dos outros semestre como as camadas ENUMS e VO.
+
+Validei meus conhecimentos em manipular e conectar uma aplicação backend com o banco de dados MySQL.
+
+Não conhecia o termo OPT-In/Out com esse projeto com base nessa funcionalidade pude por em prática um dos conceitos exigidos pela LGPD no mundo da Tecnologia.
+
+Pratiquei o uso da API Insominia validando e realizando requisições com os métodos GET, PUT, POST e confirmando se a aplicação desenvolvida realmente estava correta conforme a regra de negócio;
 
 **Soft Skills Efetivamente Desenvolvidas:**
-Tive a capacidade de planejar o escopo do projeto, determinando por onde iniciar, definindo data de entrega
-Resiliência para construir todo o backend do projeto
-AutoConfiança para determinar que sou capaz de desenvolver uma aplicação sozinha
 
+Neste projeto pude ser o PO, Scrum Master e DevTeam do projeto, confirmei minha capacidade de planejar o escopo, determinando por quais requisitos iniciar, definindo sprints, data de entrega e regra de negócio.
 
+Adquiri auto-confiança para construir todo o backend do projeto sozinha e validar o banco de dados.
 
-
+No final do projeto tive a completa certeza que tenho capacidade de enfrentar novos e grandes desafios no mundo profissional, para quem entrou no curso não sabendo o básico do mundo de programação e banco de dados hoje saio com grandes conhecimentos e com diferencial entre os demais por ser uma aluna FATECANA.
