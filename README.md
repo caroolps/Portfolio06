@@ -199,7 +199,7 @@ Diferencial: Na tabela de histórico foi acrescentada a coluna "Tipo_Historico" 
 
 - Configuração: Significa que houve atualização nos dados booleans se deseja receber sms, whats e/ou ligação;
 
-- Termo: Significa que o usuário realizou atualização de aceitação de um novo termo. 
+- Termo: Significa que o usuário apenas aceitou uma nova atualização de Termo. 
 
 ![image](https://user-images.githubusercontent.com/61089745/164936485-52261d9d-2b8e-46b8-8520-a2ac57f57207.png)
 
