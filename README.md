@@ -128,14 +128,14 @@ Pega um histórico por id.
 ![image](https://user-images.githubusercontent.com/61089745/161171178-ef3037b8-e834-4f02-a24b-100486a07dcb.png)
 
 ### Histórico por sms
-Pega todos os históricos com sms ativo.
+Pega todos os históricos com sms desativado.
 
 **Funcionameto:**
 
 ![image](https://user-images.githubusercontent.com/61089745/161171387-4078c2e6-ade8-4266-90f2-563df6471a2b.png)
 
 ### Histórico pelo whats
-Pega todos os históricos com whats.
+Pega todos os históricos com whats ativo.
 
 **Funcionameto:**
 
