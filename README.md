@@ -195,7 +195,7 @@ Para validar a regra de negócio e a aplicação realizei requisições VIA INSO
 
 Também foi inserido novos dados manualmente no banco MYSQL para validar as tabelas e colunas criadas no banco relacional através do Hibernate e fiz consultas para verificar se o banco atualizava as informações conforme as novas requisições feitas pelo Insomnia.
 
-Diferencial: Na tabela de histórico foi acrescentado a coluna "Tipo_Historico" para o usuário verificar o tipo de atualização que ocorreu no cadastro do usuário, sendo: 
+Diferencial: Na tabela de histórico foi acrescentado a coluna "Tipo_Historico" para facilitar a verificação do tipo de atualização que ocorreu no cadastro do usuário, sendo: 
 
 - Configuração: Significa que houve atualização nos dados booleans se deseja receber sms, whats e/ou ligação;
 
