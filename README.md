@@ -220,6 +220,6 @@ Pratiquei o uso da API Insominia validando e realizando requisições com os mé
 
 Neste projeto pude ser o PO, Scrum Master e DevTeam do projeto, confirmei minha capacidade de planejar o escopo, determinando por quais requisitos iniciar, definindo sprints, data de entrega e regra de negócio.
 
-Adquiri auto-confiança para construir todo o backend do projeto sozinha e validar o banco de dados.
+Adquiri autoconfiança para construir todo o backend do projeto sozinha e validar o banco de dados.
 
-No final do projeto tive a completa certeza que tenho capacidade de enfrentar novos e grandes desafios no mundo profissional, para quem entrou no curso não sabendo o básico do mundo de programação e banco de dados hoje saio com grandes conhecimentos e com diferencial entre os demais por ser uma aluna FATECANA.
+No final do projeto tive a completa certeza que tenho capacidade de enfrentar novos e grandes desafios no mundo profissional, para quem entrou no curso não sabendo o básico do mundo de programação e banco de dados, hoje saio com grandes conhecimentos e com diferencial entre os demais por ser uma aluna FATECANA.
