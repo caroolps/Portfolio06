@@ -24,9 +24,9 @@ O projeto tem como objetivo atender a LGPD (Lei geral da proteção de dados), a
 - No momento da criação ou edição do usuário, é necessário passar a versão do termo que ele está aceitando e registrar na tabela de histórico;
 - Dentro do histórico será possível identificar o usuário, suas novas configurações optIn - optOut e qual a versão aceita pelo usuário.
 
-### FEATURES:
+## FEATURES:
 
-## Termo
+### Endpoint Termo
 ### Criar termo
 
 Endpoint responsável por criar um termo.
@@ -59,7 +59,7 @@ Pega o termo mais recente.
 
 ![image](https://user-images.githubusercontent.com/61089745/161169655-240bf95c-2caa-4e12-b5da-661a7b7eea47.png)
 
-##  Usuário
+##  Endpoint Usuário
 ### Criar usuário
 
 **Funcionamento** 
@@ -98,7 +98,7 @@ Pega o termo aceito pelo usuário.
 ![image](https://user-images.githubusercontent.com/61089745/161170851-c22247a3-b27f-4f60-9844-24a8a4c049e8.png)
 
 
-## Histórico
+## Endpoint Histórico
 
 ### Pegar todos históricos
 Pega todos os históricos.
