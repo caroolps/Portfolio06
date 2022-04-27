@@ -24,7 +24,7 @@ O projeto tem como objetivo atender a LGPD (Lei geral da proteção de dados), a
 - No momento da criação ou edição do usuário, é necessário passar a versão do termo que ele está aceitando e registrar na tabela de histórico;
 - Dentro do histórico será possível identificar o usuário, suas novas configurações optIn - optOut e qual a versão aceita pelo usuário.
 
-### ENDPOINTS
+### FEATURES:
 
 ## Termo
 ### Criar termo
