@@ -206,14 +206,15 @@ Também foi inserido novos dados manualmente no banco MYSQL para validar as tabe
 
 Diferencial: Na tabela de histórico foi acrescentada a coluna "Tipo_Historico" para facilitar a verificação do tipo de atualização que ocorreu no cadastro do usuário, sendo: 
 
-![image](https://user-images.githubusercontent.com/61089745/167311749-aa622157-0b06-48df-a547-2d1930b205a5.png)
-
 - Configuração: Significa que houve atualização nos dados booleans se deseja receber sms, whats e/ou ligação;
 
 - Termo: Significa que o usuário apenas aceitou uma nova atualização de Termo. 
 
 ![image](https://user-images.githubusercontent.com/61089745/164936485-52261d9d-2b8e-46b8-8520-a2ac57f57207.png)
 
+Além disso, a tabela histórico conta com filtragem específica pelos atributos SMS, Whats e Ligação para verificar quais usuários desejam ou não receber ofertas pelos atribuitos mencionados.
+
+![image](https://user-images.githubusercontent.com/61089745/167311749-aa622157-0b06-48df-a547-2d1930b205a5.png)
 
 ### **IV - APRENDIZADOS EFETIVOS**:closed_book:
 
