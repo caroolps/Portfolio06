@@ -185,9 +185,6 @@ E todas as demais camadas da aplicação como Controller, Enums, Repository, Ser
 
 Apliquei validações ao criar e/ou atualizar usuário com termo mais antigo, o sistema não permite e retorna exception;
 
-![image](https://user-images.githubusercontent.com/61089745/167311844-e5ba518c-05ff-40ee-b3f7-733b935b5029.png)
-
-
 ![image](https://user-images.githubusercontent.com/61089745/167311666-54c005a0-63a2-4f34-82bb-2c2e89867ee5.png)
 
 
