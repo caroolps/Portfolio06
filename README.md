@@ -173,7 +173,7 @@ INSOMNIA: É um API Client que facilita aos desenvolvedores criar, compartilhar,
 
 ### **III - CONTRIBUIÇÕES INDIVIDUAIS**:bow:
 
-Este Projeto Integrador foi desenvolvido através do projeto proposto pela matéria Tópicos Avançados em Banco de Dados, optei por realizar o projeto de forma individual para validar as habilidades desenvolvidas durante o curso. Contudo, desenvolvi do backend inteiro com as entidades:
+Este Projeto Integrador foi desenvolvido através do projeto proposto pela matéria Tópicos Avançados em Banco de Dados, optei por realizar o projeto de forma individual para validar as habilidades desenvolvidas durante o curso. Contudo, desenvolvi do back-end inteiro com as entidades:
 
 - Histórico; 
 - Termo; 
@@ -212,9 +212,9 @@ Diferencial: Na tabela de histórico foi acrescentada a coluna "Tipo_Historico" 
 
 **Hard Skills Efetivamente Desenvolvidas:**
 
-Este último Projeto Integrador com base no Projeto de uma matéria específica foi o que eu mais gostei de desenvolver por validar a minha capacidade de realizar sozinha uma aplicação. Com certeza aperfeiçoei meus conhecimentos no backend, tive a oportunidade de utilizar novas camadas que estava aprendendo em cursos extras que não tive oportunidade de usar ao longo dos outros semestre como as camadas ENUMS e VO.
+Este último Projeto Integrador com base no Projeto de uma matéria específica foi o que eu mais gostei de desenvolver por validar a minha capacidade de realizar sozinha uma aplicação. Com certeza aperfeiçoei meus conhecimentos no back-end, tive a oportunidade de utilizar novas camadas que estava aprendendo em cursos extras que não tive oportunidade de usar ao longo dos outros semestre como as camadas ENUMS e VO.
 
-Validei meus conhecimentos em manipular e conectar uma aplicação backend com o banco de dados MySQL.
+Validei meus conhecimentos em manipular e conectar uma aplicação back-end com o banco de dados MySQL.
 
 Não conhecia o termo OPT-In/Out com esse projeto com base nessa funcionalidade pude por em prática um dos conceitos exigidos pela LGPD no mundo da Tecnologia.
 
@@ -224,6 +224,6 @@ Pratiquei o uso da API Insominia validando e realizando requisições com os mé
 
 Neste projeto pude ser o PO, Scrum Master e DevTeam do projeto, confirmei minha capacidade de planejar o escopo, determinando por quais requisitos iniciar, definindo sprints, data de entrega e regra de negócio.
 
-Adquiri autoconfiança para construir todo o backend do projeto sozinha e validar o banco de dados.
+Adquiri autoconfiança para construir todo o back-end do projeto sozinha e validar o banco de dados.
 
 No final do projeto tive a completa certeza que tenho capacidade de enfrentar novos e grandes desafios no mundo profissional, para quem entrou no curso não sabendo o básico do mundo de programação e banco de dados, hoje saio com grandes conhecimentos e com diferencial entre os demais por ser uma aluna FATECANA.
