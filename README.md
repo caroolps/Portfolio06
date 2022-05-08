@@ -159,6 +159,9 @@ JAVA: É uma linguagem de programação orientada a objetos. Foi utilizado essa 
 
 ECLIPSE: Java é uma linguagem de programação orientada a objetos, para desenvolver o backend foi usado o ambiente Eclipse para desenvolvimento integrado, escrito em Java.
 
+![image](https://user-images.githubusercontent.com/61089745/159171648-9eb35a58-30de-4698-b25e-220fe116178f.png)
+- SpringBoot: É um framework Java open source que tem como objetivo facilitar esse processo em aplicações Java. Consequentemente, ele trouxe mais agilidade para o processo de desenvolvimento, reduzindo o tempo gasto com as configurações iniciais. A ferramenta foi apresentada através de uma integrante do grupo que tinha mais experiência no back-end.
+
 ![image](https://user-images.githubusercontent.com/61089745/164816585-ecd79b2f-43ff-45ac-ab36-0ee5eee8eef5.png)
 
 MySQL: O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. Foi usado para o desenvolvimento do banco relacional da aplicação.
